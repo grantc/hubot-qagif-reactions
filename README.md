@@ -1,4 +1,4 @@
-# Hubot QAGif Reactions (ripped off Hubot Devops Reactions)
+# Hubot QAGif Reactions (ripped off from Hubot Devops Reactions)
 
 Post a random [QAGif reactions](http://qagif.tumblr.com/) gif.
 
