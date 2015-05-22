@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:grantc/hubot-qagif-reactions.git"
+    "url": "git+ssh://git@github.com/grantc/hubot-qagif-reactions.git"
   },
   "bugs": {
     "url": "https://github.com/grantc/hubot-qagif-reactions/issues"
@@ -29,5 +29,9 @@
   "main": "index.coffee",
   "scripts": {
     "test": "script/test"
+  },
+  "homepage": "https://github.com/grantc/hubot-qagif-reactions#readme",
+  "directories": {
+    "test": "test"
   }
 }
