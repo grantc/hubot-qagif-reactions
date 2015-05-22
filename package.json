@@ -1,20 +1,20 @@
 {
-  "name": "hubot-devops-reactions",
-  "description": "Post a random devopsreactions.tumblr.com gif",
+  "name": "hubot-qagif-reactions",
+  "description": "Post a random qagifreactions.tumblr.com gif",
   "version": "1.0.2",
   "author": "Benjamin Dos Santos",
   "license": "MIT",
   "keywords": [
     "hubot",
     "hubot-scripts",
-    "devops-reactions"
+    "qagif-reactions"
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:hubot-scripts/hubot-devops-reactions.git"
+    "url": "git@github.com:grantc/hubot-qagif-reactions.git"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-devops-reactions/issues"
+    "url": "https://github.com/grantc/hubot-qagif-reactions/issues"
   },
   "dependencies": {
     "coffee-script": "~1.6",

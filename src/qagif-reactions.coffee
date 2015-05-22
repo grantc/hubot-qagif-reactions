@@ -8,18 +8,18 @@
 #   None
 #
 # Commands:
-#   devops reactions
+#   qagif reactions
 #
 # Author:
 #
 
 jsdom = require('jsdom').jsdom
 jquery = 'http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'
-url = 'http://devopsreactions.tumblr.com/random'
-devopsRegex = /(devops reactions|!devops)/i
+url = 'http://qagif.tumblr.com/random'
+qagifRegex = /(qagif reactions|!qagif)/i
 
 module.exports = (robot) ->
-  robot.hear devopsRegex, (msg) ->
+  robot.hear qagifRegex, (msg) ->
     msg.http(url).get() (err, res, body) ->
       location = res.headers.location
       jsdom.env location, [jquery], (errors, window) ->
