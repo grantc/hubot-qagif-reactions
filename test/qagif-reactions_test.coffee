@@ -13,4 +13,4 @@ describe 'qagif-reactions', ->
     require('../src/qagif-reactions')(@robot)
 
   it 'registers a hear listener', ->
-    expect(@robot.hear).to.have.been.calledWith(/qagif reactions/i)
+    expect(@robot.hear).to.have.been.calledWith(/qagif/i)
