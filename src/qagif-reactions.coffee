@@ -16,7 +16,7 @@
 jsdom = require('jsdom').jsdom
 jquery = 'http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'
 url = 'http://qagif.tumblr.com/random'
-qagifRegex = /qagif/i
+qagifRegex = /(qagif reactions|qagif)/i
 
 module.exports = (robot) ->
   robot.hear qagifRegex, (msg) ->
